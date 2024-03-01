@@ -1,5 +1,5 @@
 resource "nexus_repository_docker_hosted" "container_local" {
-  name   = "container-local"
+  name   = "docker-local"
   online = true
   component {
     proprietary_components = false
